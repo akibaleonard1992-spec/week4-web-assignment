@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpendWise Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard-shell">
+      <aside class="sidebar" aria-label="Primary navigation">
+        <a class="brand" href="#" aria-label="SpendWise home">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span>SpendWise</span>
+        </a>
+
+        <nav class="nav-menu">
+          <a class="nav-link active" href="#" aria-current="page">
+            <span class="nav-icon" aria-hidden="true">⌂</span>
+            <span>Overview</span>
+          </a>
+          <a class="nav-link" href="#">
+            <span class="nav-icon" aria-hidden="true">↗</span>
+            <span>Transactions</span>
+          </a>
+          <a class="nav-link" href="#">
+            <span class="nav-icon" aria-hidden="true">◫</span>
+            <span>Budgets</span>
+          </a>
+          <a class="nav-link" href="#">
+            <span class="nav-icon" aria-hidden="true">◎</span>
+            <span>Goals</span>
+          </a>
+        </nav>
+
+        <a class="nav-link settings-link" href="#">
+          <span class="nav-icon" aria-hidden="true">⚙</span>
+          <span>Settings</span>
+        </a>
+      </aside>
+
+      <main class="main-content">
+        <header class="header">
+          <div>
+            <p class="eyebrow">November 2026</p>
+            <h1>Good morning, Alex</h1>
+          </div>
+
+          <div class="header-actions">
+            <button class="icon-button" type="button" aria-label="Notifications">•••</button>
+            <button class="profile-button" type="button" aria-label="Open profile">
+              <span class="avatar" aria-hidden="true">AM</span>
+              <span class="profile-name">Alex Morgan</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="summary" aria-labelledby="summary-title">
+          <div>
+            <p class="summary-label">Monthly spending</p>
+            <p class="summary-value">Ksh 2,840.50</p>
+          </div>
+          <div class="budget-status">
+            <span>Ksh 1,159.50 remaining</span>
+            <div class="progress-track" aria-label="71 percent of monthly budget used">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="categories-title">
+          <div class="section-heading">
+            <h2 id="categories-title">Categories</h2>
+            <button class="text-button" type="button">View details</button>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card" tabindex="0">
+              <div class="card-top">
+                <span class="category-icon food" aria-hidden="true">🍴</span>
+                <span class="trend positive">-8%</span>
+              </div>
+              <h3>Food</h3>
+              <p class="card-amount">Ksh 468.20</p>
+              <p class="card-budget">of Ksh 600 budget</p>
+            </article>
+
+            <article class="category-card" tabindex="0">
+              <div class="card-top">
+                <span class="category-icon transport" aria-hidden="true">↗</span>
+                <span class="trend negative">+12%</span>
+              </div>
+              <h3>Transport</h3>
+              <p class="card-amount">Ksh 324.80</p>
+              <p class="card-budget">of Ksh 450 budget</p>
+            </article>
+
+            <article class="category-card" tabindex="0">
+              <div class="card-top">
+                <span class="category-icon rent" aria-hidden="true">⌂</span>
+                <span class="trend neutral">0%</span>
+              </div>
+              <h3>Rent</h3>
+              <p class="card-amount">Ksh 1,200.00</p>
+              <p class="card-budget">of Ksh 1,200 budget</p>
+            </article>
+
+            <article class="category-card" tabindex="0">
+              <div class="card-top">
+                <span class="category-icon entertainment" aria-hidden="true">▶</span>
+                <span class="trend positive">-4%</span>
+              </div>
+              <h3>Entertainment</h3>
+              <p class="card-amount">Ksh 182.50</p>
+              <p class="card-budget">of Ksh 300 budget</p>
+            </article>
+
+            <article class="category-card" tabindex="0">
+              <div class="card-top">
+                <span class="category-icon savings" aria-hidden="true">K</span>
+                <span class="trend positive">+15%</span>
+              </div>
+              <h3>Savings</h3>
+              <p class="card-amount">Ksh 540.00</p>
+              <p class="card-budget">of Ksh 600 goal</p>
+            </article>
+
+            <article class="category-card" tabindex="0">
+              <div class="card-top">
+                <span class="category-icon utilities" aria-hidden="true">ϟ</span>
+                <span class="trend negative">+6%</span>
+              </div>
+              <h3>Utilities</h3>
+              <p class="card-amount">Ksh 165.00</p>
+              <p class="card-budget">of Ksh 200 budget</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
